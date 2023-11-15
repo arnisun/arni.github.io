@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "测试远程图床"
+date:   2023-11-15 12:00:10 +0800
+categories: arni
+---
+
+## 代码测试
+```
+    这是代码块
+
+```
+
+您可以在`_posts`目录中找到这篇文章。继续编辑并重新构建网站以查看您的更改。你可以用很多不同的方式重建网站，但最常见的方式是运行`jekyll serve`，它启动一个`web`服务器，并在文件更新时自动重新生成你的网站。
+
+`Jekyll`要求博客文章文件按照以下格式命名：
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+其中 `YEAR` 是四位数, `MONTH` 和 `DAY` 都是两位数, and `MARKUP` 是表示文件中使用的格式的文件扩展名。之后，包括必要的前置事项。看看这篇文章的来源，了解一下它是如何工作的。
+
+`Jekyll`还提供了对代码片段的强大支持：
+
+{% highlight ruby %}
+
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+
+{% endhighlight %}
+
+查看 [Jekyll docs][jekyll-docs] 文档了解更多关于如何充分利用 [Jekyll’s GitHub repo][jekyll-gh] 的信息。在Jekyll的GitHub repo中提交所有错误/功能请求。如果你有问题，可以在 [Jekyll Talk][jekyll-talk] 上提问。
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
+## 插入图片 图床的图片
+ <img src="https://z1.ax1x.com/2023/11/15/piY80Ve.jpg" width = "300" height = "200" alt="图床的图片名称" align=center />
+
+## 插入图片 本地的图片
+  <img src="../assets/wximages.png" width = "300" height = "200" alt="本地的图片名称" align=center />
+
+
+
