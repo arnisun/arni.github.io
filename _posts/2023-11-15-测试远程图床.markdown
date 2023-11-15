@@ -42,7 +42,16 @@ print_hi('Tom')
  <img src="https://z1.ax1x.com/2023/11/15/piY80Ve.jpg" width = "300" height = "200" alt="图床的图片名称" align=center />
 
 ## 插入图片 本地的图片
-  <img src="../assets/wximages.png" width = "300" height = "200" alt="本地的图片名称" align=center />
+ 
 
+#### 注意
+jekyll 不支持 html标签载入本地图片，但是本地编译器能显示
+```
+// 这种方式是不支持的 但是加载图床是可以的。
+<img src="../assets/wximages.png" width = "300" height = "200" alt="本地的图片名称" align=center />
+
+```
+
+![本地的图片名称](/assets/wximages.png){:width="400px" height="250px"}
 
 
